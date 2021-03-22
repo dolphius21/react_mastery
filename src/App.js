@@ -1,10 +1,12 @@
-import React from 'react'
-function App() {
-  return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
-    </div>
-  )
-}
+import React from 'react';
+import Setup from './tutorial/1-useState/1-error-example';
 
-export default App
+const App = () => {
+  return (
+    <div className="container">
+      <Setup />
+    </div>
+  );
+};
+
+export default App;
